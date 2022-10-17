@@ -16,4 +16,8 @@ public final class PHAssetWrapper {
     init(value: PHAsset) {
         self.value = value
     }
+    
+    func getAsset() -> PHAsset? {
+        return value
+    }
 }
